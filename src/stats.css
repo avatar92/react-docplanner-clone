@@ -1,0 +1,114 @@
+@media (min-width:768.5px){
+.backgroundStats
+{
+     
+    padding: 0px; 
+    margin: 3.125rem auto 5.5rem;
+    background: #daf7f7;
+    background-image: url('https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/jcmy9zzlqh682l0my9p3?fbclid=IwAR1hAwpdywIJfepv32OfOgXuvbf3ZhdSxOUxOWM0pkBTb60gpTS3dlNSQy0');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position:50px 350px;
+     
+}
+}
+@media only screen and (max-width:768.5px) and (min-width:480.5px){
+    .backgroundStats
+    {
+         
+        padding: 0px; 
+        margin: 3.125rem auto 5.5rem;
+        background: #daf7f7;
+        background-image: url('https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/jcmy9zzlqh682l0my9p3?fbclid=IwAR1hAwpdywIJfepv32OfOgXuvbf3ZhdSxOUxOWM0pkBTb60gpTS3dlNSQy0');
+        background-size: 400px;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-position:-100px 500px;
+         
+    }
+    }
+@media only screen and (max-width:480.5px){
+    .backgroundStats
+    {
+            
+        padding: 0px; 
+        margin: 3.125rem auto 5.5rem;
+        background: #daf7f7;
+            
+    }
+    }
+.statsContent
+{
+    max-width: 1016.5px; 
+  
+}
+.statsParag
+{
+    margin: 22px 0px; 
+}
+.statsdescription
+{
+    margin-top: 60px; 
+}
+@media (max-width:768.5px)
+{
+.statsdescription 
+{
+    text-align: center; 
+}
+}
+@media (min-width:576.5px){
+.cardwithnomargin  
+{
+    text-align: center;
+    margin-top: 50px; 
+    
+}
+.cardwithmargin
+{
+    text-align: center;
+    margin-top: 20px;
+}
+}
+@media (max-width:576.5px){
+    .cardwithnomargin  
+    {
+        text-align: center;
+        margin-top: 5px; 
+        
+    }
+    .cardwithmargin
+    {
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+.cardwithnomargin h3
+{
+    font-size: 24px; 
+    color: #00b39b;
+    margin: 12px 0px;  
+}
+.cardwithmargin h3
+{
+    font-size: 24px; 
+    color: #00b39b; 
+    margin: 12px 0px;
+}
+.cardwithmargin p 
+{
+    font-size: 13px; 
+}
+.cardwithnomargin p 
+{
+    font-size: 13px; 
+}
+.cardwithmargin img
+{
+    margin-top: 20px; 
+}
+.cardwithnomargin img
+{
+    margin-top: 20px; 
+}

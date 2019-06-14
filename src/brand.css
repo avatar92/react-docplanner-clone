@@ -1,0 +1,28 @@
+.brandsection
+{
+    margin-top: 10px; 
+    max-width: 1016.5px; 
+}
+.titre
+{
+    font-size: 24px; 
+}
+.iconslist
+{
+   /* border: 1px solid black; */
+    display: flex; 
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 0px; 
+    margin: 0px; 
+    margin-bottom: 10px; 
+     
+        
+}
+.iconstyle
+{
+    padding: 0px; 
+    margin: 0px 5px;
+    fill: #c4c4c4;
+      
+}

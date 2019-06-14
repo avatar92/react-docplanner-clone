@@ -1,0 +1,61 @@
+.inner
+{
+    max-width: 1016.5px;
+    
+    
+}
+.inner h1 
+{
+    font-size: 30px; 
+    text-align: center;
+    padding: 0px;   
+}
+.inner p
+{
+    text-align: center; 
+    padding: 0px; 
+}
+.innercard
+{
+    border: 1px solid rgb(224, 224, 224);
+}
+.innercard1
+{
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 12px; 
+    margin: 5px; 
+}
+.usingflex
+{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.scrollmenu {
+    background-color: white;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex; 
+    flex-wrap: nowrap; 
+    margin: 0px 0px; 
+  }
+.samewidthandheight
+{
+    width: 18rem; 
+    height: 20rem;
+    border-radius: 12px; 
+}
+@media (min-width:889.5px)
+{
+    .display1
+    {
+        display: none; 
+    }
+}
+@media (max-width:889.5px)
+{
+    .display0
+    {
+        display: none; 
+    }
+}

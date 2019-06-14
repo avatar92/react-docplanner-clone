@@ -1,0 +1,194 @@
+/*****************headerPadding***********************/
+.header
+{ padding-top: 10px; 
+  padding-left: 15px; 
+  padding-right: 15px; 
+  padding-bottom:10px;  
+}
+
+
+/*****starting header css logo first*/ 
+.logo-docplanner
+{
+  /*border: 1px solid orange; */
+  width: 12rem;
+  height: 10%;
+}
+/**************dropdown link*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  padding-top: 10px;
+  position: absolute;
+  min-width: 210px;
+  margin-left: -122px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  z-index: 10;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover 
+{
+background-color: #f1f1f1;
+color:#00b39b;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdownLink {
+  color:#00b39b;
+}
+/*****using flex********************/
+.barredenavgation
+{
+  
+  /*border: 1px solid blue;*/
+  background-color: white; 
+  position: fixed;
+  width: 100%; 
+  z-index: 2000;
+  top: 0px; 
+}
+.header
+{
+  /*border: 1px solid black; */
+  display: flex; 
+  max-width: 1016.5px; 
+  margin: auto; 
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1)    
+}
+.navLinks
+{
+  /*border: 1px solid red;*/
+  padding: 0px; 
+  margin: 0px;  
+  display: flex;
+  min-width: 230px;
+  justify-content: space-between;   
+} 
+.navLinks li{ 
+  /*border: 1px solid yellow;  */
+}
+.specialcolor
+{
+  color:#00b39b; 
+}
+/****************toggle ICon**********************************************/
+.toggleIcon
+{
+    color: #00b39b;
+    /*border: 1px solid greenyellow;*/
+    font-size: 25px; 
+    margin-right: 5px
+}
+@media (min-width: 480.5px) {
+    .toggleIcon {
+      display: none;
+      
+    }
+    
+}
+@media (max-width: 480.5px) {
+    .navLinks
+    {
+        display:none; 
+    }
+}
+/***********************header toggle collapse*****/ 
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,179,155, 1);
+    overflow-y: hidden;
+    transition: 0.5s;
+    /*opacity: 0.2;*/
+  }
+  
+  .overlay-content {
+    position: relative; 
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: -40px;
+    
+  }
+  .disabled
+  {
+    
+    pointer-events: none;
+    cursor: default;
+    color: rgba(255,255,255,0.8)
+   
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    background: rgba(205, 205, 209, 0.6);
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 5.5px;
+    right: 16px;
+    font-size: 30px;
+    color: white; 
+    
+  }
+  .closebtn
+  {
+    color: white !important; 
+  }
+  .space
+  {
+      margin-top: 12px; 
+  }
+  .logo-docplanner1
+  {
+      position: absolute; 
+      filter: brightness(200%) saturate(0) contrast(1000%) grayscale(100%); 
+      width: 193.45px; 
+      top: 17px; 
+      left: 19px; 
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    color: white; 
+    font-weight:100;
+    }
+  }
+.overlay-content hr
+{
+    width: 90%; 
+}
